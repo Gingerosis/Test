@@ -27,14 +27,14 @@ header img {
 }
 
 main {
-    max-width: 100%;
+    max-width: 80%;
     margin: 0 auto;
     padding: 0 20px;
 }
 
 main img {
     display: block;
-    max-width: 90%;
+    max-width: 99%;
     margin: 0 auto;
 }
 
@@ -50,4 +50,26 @@ a:hover {
 footer {
     text-align: center;
     padding: 50px;
+}
+
+
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 10px;    
+  }
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #0a0a0a; 
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #121212; 
+}
+::-webkit-scrollbar-button {
+    background-color: #050505;
+}
+::-webkit-scrollbar-button:hover {
+    background-color: #0a0a0a;
 }

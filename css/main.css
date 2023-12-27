@@ -7,7 +7,7 @@ body {
     background-color: #050505;
     color: white;
     line-height: 1.3em;
-    background-image: url("../img/coding.png");
+    background-image: url("../img/coding2.png");
     background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -16,7 +16,6 @@ body {
 
 header {
     text-align: center;
-    padding-top: 50px;
     padding-bottom: 40px;
 }
 
@@ -29,6 +28,52 @@ header img {
     width: 20%;
     height: 20%;
     border-radius: 50%;
+}
+
+/* flexbox */
+.flex {
+    display: flex;
+}
+.flex-jc-sb {
+    justify-content: space-between;
+}
+.flex-jc-c {
+    justify-content: center;
+}
+.flex-ai-c {
+    align-items: center;
+}
+
+.header-logo img {
+    width: 3rem;
+    height: 3rem;
+}
+.header-menu {
+    > span {
+        display: block;
+        width: 26px;
+        height: 2px;
+        background-color: white;
+        border-radius: 1px;
+
+        &:not(:last-child){
+            margin-bottom: 3px;
+        }
+    }
+}
+.header-links {
+    margin: 0 auto;
+    padding-right:2rem;
+
+    > a {
+        &:not(:last-child){
+            margin-right: 10px;
+        }
+    }
+}
+
+nav {
+    padding: 24px;
 }
 
 main {
@@ -49,7 +94,7 @@ a {
 }
 
 a:hover {
-    color: #EF0A6C;
+    color: #ff0a9b;
 }
 
 footer {
